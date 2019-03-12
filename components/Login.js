@@ -35,7 +35,7 @@ export default class App extends Component {
             <View style={styles.mainApp}>
                 <View style={styles.upperTile}>
                     <View style={styles.imageView}>
-                        {/* <Image source={require('../assets/images/logo-white.png')}/> */}
+                        {<Image source={require('../assets/images/logo_white.png')}/> }
                     </View>
                 </View>
                 <View style={styles.lowerTile}>
